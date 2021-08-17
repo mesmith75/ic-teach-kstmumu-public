@@ -1,8 +1,12 @@
-## Welcome to GitHub Pages
+# Imperial College Third Year Problem Solving
 
-You can use the [editor on GitHub](https://github.com/mesmith75/ic-teach-kstmumu-public/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the 3rd year physics problem solving course. The aim of the course is to perform a simplified version of a real High Energy Physics analysis carried out by members of the LHCb collaboration here at Imperial.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## The LHCb collaboration
+
+The [LHCb collaboration](http://lhcb-public.web.cern.ch/) is formed of approximately 1000 physicists from institutes all over the world, including a strong presence [here at Imperial](https://www.imperial.ac.uk/high-energy-physics/research/experiments/lhcb/). Together they contribute to the successful running of the LHCb detector and analyses the vast quantities of data it produces. The LHCb experiment is one of the 4 large experiments at the LHC particle collider operating at CERN, near Geneva. 
+
+
 
 ### Markdown
 
