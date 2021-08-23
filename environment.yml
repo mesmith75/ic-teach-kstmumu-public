@@ -6,4 +6,4 @@ dependencies:
   - matplotlib=3.4.3
   - pip
   - pip:
-      - iminuit=2.8.2
+      - iminuit==2.8.2
