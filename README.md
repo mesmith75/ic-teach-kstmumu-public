@@ -1,3 +1,6 @@
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mesmith75/ic-teach-kstmumu-public/starter_code)
+
 # Imperial College Third Year Problem Solving
 
 Welcome to the 3rd year physics problem solving course. The aim of the course is to perform a simplified version of a real High Energy Physics analysis carried out by members of the LHCb collaboration here at Imperial.
