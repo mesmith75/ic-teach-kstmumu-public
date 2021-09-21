@@ -9,6 +9,11 @@ Welcome to the 3rd year physics problem solving course. The aim of the course is
 
 The [LHCb collaboration](http://lhcb-public.web.cern.ch/) is formed of approximately 1000 physicists from institutes all over the world, including a strong presence [here at Imperial](https://www.imperial.ac.uk/high-energy-physics/research/experiments/lhcb/). Together they contribute to the successful running of the LHCb detector and analyses the vast quantities of data it produces. The LHCb experiment is one of the 4 large experiments at the LHC particle collider operating at CERN, near Geneva. 
 
+## Useful links
+
+The data is loaded into a [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html).
+
+To minimise the likelihood the example code uses the [`iminiuit`](https://pypi.org/project/iminuit/) package.
 
 
 ### Markdown
