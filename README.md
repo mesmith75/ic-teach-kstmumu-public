@@ -11,7 +11,9 @@ The [LHCb collaboration](http://lhcb-public.web.cern.ch/) is formed of approxima
 
 ## Useful links - example code
 
+- An example of some fit code can be found [here](https://github.com/mesmith75/ic-teach-kstmumu-public/blob/main/starter_notebook.ipynb).
 - The data is loaded into a [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html).
+- Python arrays can be readily manipulated with [`numpy`](https://numpy.org/)
 - To minimise the likelihood the example code uses the [`iminiuit`](https://pypi.org/project/iminuit/) package.
 - Plots are made with [`matplotlib.pyplot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html).
 
