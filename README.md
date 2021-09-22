@@ -15,3 +15,7 @@ The [LHCb collaboration](http://lhcb-public.web.cern.ch/) is formed of approxima
 - Python arrays can be readily manipulated with [`numpy`](https://numpy.org/)
 - To minimise the likelihood the example code uses the [`iminiuit`](https://pypi.org/project/iminuit/) package.
 - Plots are made with [`matplotlib.pyplot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html).
+
+## Predictions
+
+A set of Standard Model predictions for the angular observables are located in the predictions folder.
