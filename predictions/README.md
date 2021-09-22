@@ -3,6 +3,10 @@ SM Predictions
 
 The two `.json` files here contain the SM predictions for the ```math S_{i}``` and optimised $P_{i}$ observables along with their theoretical uncertainties. These were calculated in bins of $q^{2}$ with the [`flavio`](https://flav-io.github.io/) package.
 
+```math
+q^{2}
+```
+
 The binning scheme is:
 
 |Bin number| $q2$ range|
