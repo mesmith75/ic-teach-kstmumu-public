@@ -5,8 +5,8 @@ The two `.json` files here contain the SM predictions for the <img src="https://
 
 The binning scheme is:
 
-|Bin number| <img src="https://latex.codecogs.com/gif.latex?q^{2}" /> range|
-------------------------
+|Bin number| <img src="https://latex.codecogs.com/gif.latex?q^{2}" /> range |
+|----------|--------------|
 | 0 | 0.1 - 0.98 |
 | 1 | 1.1 - 2.5 |
 | 2 | 2.5 - 4.0 |
