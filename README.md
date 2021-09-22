@@ -48,4 +48,4 @@ Here `migrad` is the operation that searches for the minimum of the `log_likelih
 
 ## Predictions
 
-A set of Standard Model predictions for the angular observables are located in the predictions folder.
+A set of Standard Model predictions for the angular observables are located in the [predictions](predictions/README.md) folder.
