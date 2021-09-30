@@ -18,7 +18,7 @@ The [LHCb collaboration](http://lhcb-public.web.cern.ch/) is formed of approxima
 
 ## Example code
 
-An simple example of a fit to some toy data is provided. The most pertinent part is the calculation of the negative log-likelihood and the minimisation.
+An simple example of a fit to some toy data is provided. The toy data is located in the [kstarmumu_toy_data](kstarmumu_toy_data) folder. The most pertinent part is the calculation of the negative log-likelihood and the minimisation.
 
 The likelihood is calculated in the function below:
 ```python
@@ -48,8 +48,8 @@ Here `migrad` is the operation that searches for the minimum of the `log_likelih
 
 ## Predictions
 
-A set of Standard Model predictions for the angular observables are located in the [predictions](predictions/README.md) folder.
+A set of Standard Model predictions for the angular observables are located in the [predictions](predictions) folder along with a small notebook to load and read them.
 
 ## Data
 
-The meanings of the variables in the data are described in the [Branches](Branches/README.md) folder.
+The meanings of the variables in the data are described in the [Branches](Branches/README.md) folder. A list of the data files are in the [samples](samples/README.md) folder.
