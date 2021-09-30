@@ -11,7 +11,7 @@ Particles
 Variables
 ---------
 
-* `ProbNNx` - the probability that a give track is positively identified as a given hypotheses. For example `mu_plus_ProbNNmu` is the probability that the `mu_plus` is a real muon, `(1 - mu_plus_ProbNNpi)` would be the probability that it is not a pion
+* `ProbNNx` - the probability that a given track is positively identified as a given hypotheses. For example `mu_plus_ProbNNmu` is the probability that the `mu_plus` is a real muon, `(1 - mu_plus_ProbNNpi)` would be the probability that it is not a pion
 * `PV` - primary vertex, the point of the proton-proton collision
 * `ENDVERTEX` - position of the reconstructed decay vertex of the particle
 * `ENDVERTEX_CHI2` - <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> of the vertex fit. Essentially how well do the tracks form a vertex
