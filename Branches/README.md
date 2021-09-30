@@ -6,7 +6,7 @@ In the data sets provided are many variables. Their meanings are described here.
 Particles
 ---------
 
-* The final state particles are labelled by `K`, `Pi`, `mu_plus`, `mu_minus`. The `K` and `Pi` combination is labelled by `Kstar` and the two muons are combined into `Jpsi`. Finally the the *B* candidate is labelled by `B0`.
+* The final state particles are labelled by `K`, `Pi`, `mu_plus`, `mu_minus`. The `K` and `Pi` combination is labelled by `Kstar` and the two muons are combined into `J_psi`. Finally the the *B* candidate is labelled by `B0`.
 
 Variables
 ---------
