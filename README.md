@@ -18,7 +18,9 @@ The [LHCb collaboration](http://lhcb-public.web.cern.ch/) is formed of approxima
 
 ## Example code
 
-An simple example of a fit to some toy data is provided. The toy data is located in the [kstarmumu_toy_data](kstarmumu_toy_data) folder. The most pertinent part is the calculation of the negative log-likelihood and the minimisation.
+An simple example of a fit to some toy data is provided. The toy data is located in the [kstarmumu_toy_data](kstarmumu_toy_data) folder. You can download it to run it locally or use the binder link here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mesmith75/ic-teach-kstmumu-public/main?filepath=starter_notebook.ipynb).
+
+The most pertinent part is the calculation of the negative log-likelihood and the minimisation.
 
 The likelihood is calculated in the function below:
 ```python
