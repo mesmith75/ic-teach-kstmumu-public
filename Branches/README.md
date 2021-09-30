@@ -6,7 +6,7 @@ In the data sets provided are many variables. Their meanings are described here.
 Coordinate System
 -----------------
 
-LHCb uses a right-handed coordinate system with the origin at the nominal interaction point. The 'z' axis is along the beam pip, from the interaction point towards the muon stations. 'y' is vertically upwards and 'x' is towards the centre of the LHC.
+LHCb uses a right-handed coordinate system with the origin at the nominal interaction point. The 'z' axis is along the beam pipe, from the interaction point towards the muon stations. 'y' is vertically upwards and 'x' is towards the centre of the LHC.
 
 Particles
 ---------
