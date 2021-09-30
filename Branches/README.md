@@ -3,6 +3,11 @@ Variables
 
 In the data sets provided are many variables. Their meanings are described here.
 
+Coordinate System
+-----------------
+
+LHCb uses a right-handed coordinate system with the origin at the nominal interaction point. The 'z' axis is along the beam pip, from the interaction point towards the muon stations. 'y' is vertically upwards and 'x' is towards the centre of the LHC.
+
 Particles
 ---------
 
@@ -15,9 +20,9 @@ Variables
 * `PV` - primary vertex, the point of the proton-proton collision
 * `ENDVERTEX` - position of the reconstructed decay vertex of the particle
 * `ENDVERTEX_CHI2` - <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> of the vertex fit. Essentially how well do the tracks form a vertex
-* `IP` - impact parameter. The perpendicular distance between a particle trajectory and some point.
-* `IPCHI2` - The IP in units of the uncertainty in it. The uncertainty is a combination of the vertex <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> and the uncertainty on the particle trajectory.
+* `IPCHI2` - The IP in units of the uncertainty in it. The IP is the impact parameter - the perpendicular distance between a trajectory and the PV. The uncertainty is a combination of the vertex <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> and the uncertainty on the particle trajectory.
 * `P` - momentum of the particle in units of MeV
 * `PT` - momentum of the particle transverse to the beam line in units of MeV
+* `PX`, `PY`, 'PZ', `PE` - components of the 4-momentum.
 * `FD` - distance between a particles end vertex and origin vertex in units of mm
 * `FDCHI2` - FD in units of uncertainty, where the uncertainty is the combination of the <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> of the two vertices
