@@ -26,3 +26,6 @@ Variables
 * `PX`, `PY`, 'PZ', `PE` - components of the 4-momentum.
 * `FD` - distance between a particles end vertex and origin vertex in units of mm
 * `FDCHI2` - FD in units of uncertainty, where the uncertainty is the combination of the <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> of the two vertices
+* `ETA` - the pseudorapidity of the particle
+* `DIRA` - the cosine of the angle between the particle's flight vector and momentum vector
+* `OWNPV` - quantities labelled with `OWNPV` mean they are calculated with respect to that particle's assigned primary vertex.
