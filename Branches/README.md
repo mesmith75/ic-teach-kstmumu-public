@@ -20,12 +20,13 @@ Variables
 * `PV` - primary vertex, the point of the proton-proton collision
 * `ENDVERTEX` - position of the reconstructed decay vertex of the particle
 * `ENDVERTEX_CHI2` - <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> of the vertex fit. Essentially how well do the tracks form a vertex
-* `IPCHI2` - The IP in units of the uncertainty in it. The IP is the impact parameter - the perpendicular distance between a trajectory and the PV. The uncertainty is a combination of the vertex <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> and the uncertainty on the particle trajectory.
+* `IPCHI2` - The IP <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> . The IP is the impact parameter - the perpendicular distance between a trajectory and the PV. The uncertainty is a combination of the vertex <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> and the uncertainty on the particle trajectory. The `IPCHI2` is the square of the IP divided by the square of the uncertainty to from a <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> type qauntity.
 * `P` - momentum of the particle in units of MeV
 * `PT` - momentum of the particle transverse to the beam line in units of MeV
 * `PX`, `PY`, 'PZ', `PE` - components of the 4-momentum.
+* `MM`, 'measured mass' - the invariant mass of the combination of the 4 decay products
 * `FD` - distance between a particles end vertex and origin vertex in units of mm
-* `FDCHI2` - FD in units of uncertainty, where the uncertainty is the combination of the <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> of the two vertices
+* `FDCHI2` - FD <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" />, where the uncertainty is the combination of the <img src="https://latex.codecogs.com/gif.latex?\chi^{2}" /> of the two vertices
 * `ETA` - the pseudorapidity of the particle
 * `DIRA` - the cosine of the angle between the particle's flight vector and momentum vector
 * `OWNPV` - quantities labelled with `OWNPV` mean they are calculated with respect to that particle's assigned primary vertex.
