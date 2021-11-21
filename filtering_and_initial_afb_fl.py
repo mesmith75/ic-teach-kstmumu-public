@@ -87,9 +87,15 @@ for i in titles:
     
 #%%
 #general meeting 3 bulletpoints criteria
-filtered_1 = data[data.K_MC15TuneV1_ProbNNk*(1-data.K_MC15TuneV1_ProbNNp) > 0.05]
-filtered_12 = filtered_1[data.Pi_MC15TuneV1_ProbNNpi*(1-data.Pi_MC15TuneV1_ProbNNk)*(1-data.Pi_MC15TuneV1_ProbNNp) > 0.1]
-filtered_123 = filtered_12[(data.mu_plus_MC15TuneV1_ProbNNmu > 0.2) & (data.mu_minus_MC15TuneV1_ProbNNmu > 0.2)]
+
+def meeting3_filter(data):
+    filtered_1 = data[data.K_MC15TuneV1_ProbNNk*(1-data.K_MC15TuneV1_ProbNNp) > 0.05]
+    filtered_12 = filtered_1[data.Pi_MC15TuneV1_ProbNNpi*(1-data.Pi_MC15TuneV1_ProbNNk)*(1-data.Pi_MC15TuneV1_ProbNNp) > 0.1]
+    filtered_123 = filtered_12[(data.mu_plus_MC15TuneV1_ProbNNmu > 0.2) & (data.mu_minus_MC15TuneV1_ProbNNmu > 0.2)]
+    return filtered_123
+
+
+filtered_b = [meeting3_filter(i) for i in b]
 
 #%%
 plt.figure(1)
