@@ -7,7 +7,7 @@ You are given various simulated data samples as Pandas dataframes in two formats
 import pandas
 my_frame = pandas.read_pickle('/path/to/file.pkl')
 ```
-Alternatively the `.csv` files are available in the `csv` folder and should not be dependent on the python version (although they are larger and slower to open). These can be opened with 
+Alternatively the `.csv` files are available and should not be dependent on the python version (although they are larger and slower to open). These can be opened with 
 
 ```python
 import pandas
