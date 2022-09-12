@@ -5,4 +5,6 @@ A multivariate analysis (MVA) is a catch-all term for data analysis that combine
 
 Many HEP analyses use an MVA for the purpose of classification - usually to divide the data into background and signal for improved precision. An MVA is often more powerful than a simple cut-based selection as it can exploit non-linear relations between many variables.
 
-Here we provide a simple example of an MVA based on only two variables.
+[This notebook](https://github.com/mesmith75/ic-teach-kstmumu-public/blob/main/MVA/MVA_example.ipynb) provides a brief example of an MVA with two variables. You can launch it with [![Binder here](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mesmith75/ic-teach-kstmumu-public/main?filepath=MVA/MVA_example.ipynb)
+
+For a more in-depth introduction you are advised to follow the [scikit-learn tutorial](https://scikit-learn.org/stable/tutorial/index.html). A quick google will give you many more tutorials for MVAs.
