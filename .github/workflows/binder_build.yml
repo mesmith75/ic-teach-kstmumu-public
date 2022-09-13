@@ -1,9 +1,7 @@
 name: 'Trigger-Binder-build'
 on:
   schedule:
-    - cron: '* * 1,15 * *'
-    branches:
-      - main
+    - cron: '1 1 1,15 * *'
 
 jobs:
   trigger-binder-build:
