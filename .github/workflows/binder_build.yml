@@ -2,8 +2,8 @@ name: 'Trigger-Binder-build'
 on:
   schedule:
     -cron '* * 1,15 * *'
-    branches:
-      - master
+  branches:
+      - main
 
 jobs:
   trigger-binder-build:
