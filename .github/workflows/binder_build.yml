@@ -1,7 +1,7 @@
 name: 'Trigger-Binder-build'
 on:
   schedule:
-    -cron '* * 1,15 * *'
+    - cron '* * 1,15 * *'
   branches:
       - main
 
