@@ -1,0 +1,14 @@
+name: 'Trigger-Binder-build'
+on:
+  schedule:
+    -cron '* * 1,15 * *'
+    branches:
+      - master
+
+jobs:
+  trigger-binder-build:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: s-weigand/trigger-mybinder-build@v1
+        with:
+          target-repo: https://github.com/mesmith75/ic-teach-kstmumu-public
