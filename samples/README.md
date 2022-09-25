@@ -23,4 +23,4 @@ The `total_dataset.csv` is the data to analyse. It is a representation of the re
 * `Kstarp_pi0.csv` - <img src="https://latex.codecogs.com/svg.image?B^{&plus;}\to&space;K^{\ast{}+}\mu^{&plus;}\mu^{-} " /> with <img src="https://latex.codecogs.com/svg.image?K^{\ast{}+}\to{}K^{&plus;}\pi^{0} " />
 * `Jpsi_Kstarp_pi0.csv` - <img src="https://latex.codecogs.com/svg.image?B^{&plus;}\to&space;K^{\ast{}+}J/\psi "/> with <img src="https://latex.codecogs.com/svg.image?K^{\ast{}+}\to{}K^{&plus;}\pi^{0} " /> and <img src="https://latex.codecogs.com/gif.latex?J/\psi\rightarrow\mu\mu " />
 
-In addition you are given a sample of simulation called `acceptance.csv`. This is generated to be flat in the three angular variables and <img src="https://latex.codecogs.com/gif.latex?q^{2}" />
+In addition you are given a sample of simulation called `acceptance_mc.csv`. This is generated to be flat in the three angular variables and <img src="https://latex.codecogs.com/gif.latex?q^{2}" />
