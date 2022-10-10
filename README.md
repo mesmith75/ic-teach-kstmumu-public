@@ -47,7 +47,6 @@ This uses `numpy` to apply the PDF function, `d2gamma_p_d2q2_dcostheta`, with so
 ```
 Here `migrad` is the operation that searches for the minimum of the `log_likelihood` function. Having found it, `hesse` is run to find the uncertainties on the fit parameters at the minimum.
 
-
 ## Predictions
 
 A set of Standard Model predictions for the angular observables are located in the [predictions](predictions) folder along with a small notebook to load and read them.
@@ -55,3 +54,20 @@ A set of Standard Model predictions for the angular observables are located in t
 ## Data
 
 The meanings of the variables in the data are described in the [Branches](Branches/README.md) folder. A list of the data files are in the [samples](samples/README.md) folder.
+
+## Software versions
+
+The data is in a format that does not depend on the python version. The versions of the packages in the skeleton code are listed below that the binder image uses are listed below. In general the previse version numbers should not matter - any fairly recent version of these packages should suffice.
+
+```yml
+name: python 3.8
+dependencies:
+  - python=3.8
+  - numpy=1.21.2
+  - pandas=1.3.2
+  - matplotlib=3.4.3
+  - pip
+  - pip:
+      - iminuit==2.8.2
+      - sklearn
+```
