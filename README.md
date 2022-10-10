@@ -55,7 +55,7 @@ A set of Standard Model predictions for the angular observables are located in t
 
 The meanings of the variables in the data are described in the [Branches](Branches/README.md) folder. A list of the data files are in the [samples](samples/README.md) folder.
 
-## Software versions
+## Python versions
 
 The data is in a format that does not depend on the python version. The versions of the packages in the skeleton code are listed below that the binder image uses are listed below. In general the previse version numbers should not matter - any fairly recent version of these packages should suffice.
 
