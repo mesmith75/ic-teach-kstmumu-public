@@ -35,4 +35,4 @@ Other
 -------
 
 * `year` - The data taking year. This is not interesting information.
-* `polarity` - The magnet polarity of the LHCb detector. As this is not real data the value is meaningless. This is not interesting information.
+* `polarity` - The magnet polarity of the LHCb detector. As this is not real data the value is meaningless. This is not interesting information and has been removed from the most recent version of the files.
