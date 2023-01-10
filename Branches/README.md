@@ -30,9 +30,3 @@ Variables
 * `ETA` - the pseudorapidity of the particle
 * `DIRA` - the cosine of the angle between the particle's flight vector and momentum vector
 * `OWNPV` - quantities labelled with `OWNPV` mean they are calculated with respect to that particle's assigned primary vertex.
-
-Other
--------
-
-* `year` - The data taking year. This is not interesting information.
-* `polarity` - The magnet polarity of the LHCb detector. As this is not real data the value is meaningless. This is not interesting information and has been removed from the most recent version of the files.
