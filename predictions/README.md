@@ -16,6 +16,6 @@ The binning scheme is:
 | 6 | 17.0 - 19.0 |
 | 7 | 11.0 - 12.5 |
 | 8 | 1.0 - 6.0 |
-| 9 | 15.0 - 17.9 |
+| 9 | 15.0 - 19.0 |
 
 The python notebook [`print_predictions.ipynb`](print_predictions.ipynb) loads the `.json` files and prints their contents.
